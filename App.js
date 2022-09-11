@@ -1,12 +1,12 @@
 import {StatusBar} from 'expo-status-bar';
 import {NavigationContainer} from '@react-navigation/native';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
-import {Image, StyleSheet, SafeAreaView} from "react-native";
+import {StyleSheet, SafeAreaView} from "react-native";
 
 const Tab = createBottomTabNavigator();
 
 // Icons
-import {HomeFilled, Home, Search, SearchFilled, Reel, ReelFilled, Shop, ShopFilled} from "./icons";
+import {HomeFilled, Home, Search, SearchFilled, ReelFilled, ShopFilled, Logo} from "./icons";
 
 // screens
 import HomeScreen from "./screens/home";
@@ -63,9 +63,7 @@ export default function App() {
                         component={ReelScreen}
                         options={{
                             tabBarIcon: ({focused, color}) => {
-                                if (focused)
-                                    return <ReelFilled fill={color}/>
-                                return <Reel fill={color}/>
+                                return <ReelFilled fill={color}/>
                             }
                         }}
                     />
@@ -74,9 +72,7 @@ export default function App() {
                         component={ShopScreen}
                         options={{
                             tabBarIcon: ({focused, color}) => {
-                                if (focused)
-                                    return <ShopFilled fill={color}/>
-                                return <Shop fill={color}/>
+                                return <ShopFilled fill={color}/>
                             }
                         }}
                     />
@@ -85,15 +81,7 @@ export default function App() {
                         component={ProfileScreen}
                         options={{
                             tabBarIcon: ({focused, color}) => {
-                                return <Image
-                                    style={{
-                                        ...styles.avatar,
-                                        borderWidth: focused ? 1 : 0
-                                    }}
-                                    source={{
-                                        uri: 'https://pbs.twimg.com/profile_images/1469715048436277258/141ZXcHO_400x400.jpg',
-                                    }}
-                                />
+                                return <Logo fill={color}/>
                             }
                         }}
                     />

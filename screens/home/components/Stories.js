@@ -5,55 +5,55 @@ import { PlusOutline } from "../../../icons";
 function Stories() {
 
     const user = {
-        name: 'Tayfun Erbilen',
-        avatar: 'https://pbs.twimg.com/profile_images/1469715048436277258/141ZXcHO_400x400.jpg',
+        name: 'Murat Çakmak',
+        avatar: 'https://cdn.lorem.space/images/game/.cache/400x400/ghost-of-tsushima.jpg',
         hasStory: false
     }
 
     const items = [
         {
             id: 2,
-            avatar: 'https://pbs.twimg.com/profile_images/1455707950341890051/flRfKMOq_400x400.jpg',
+            avatar: 'https://cdn.lorem.space/images/game/.cache/400x400/horizon-zero-dawn.jpg',
             user: 'Nacho Iacovino'
         },
         {
             id: 3,
-            avatar: 'https://pbs.twimg.com/profile_images/557940120184041473/bFyXy8Pu_400x400.jpeg',
+            avatar: 'https://cdn.lorem.space/images/game/.cache/400x400/cod-wii.jpeg',
             user: 'Rich Harris'
         },
         {
             id: 4,
-            avatar: 'https://pbs.twimg.com/profile_images/1439602105107443714/Vpb3Ra1K_400x400.jpg',
+            avatar: 'https://cdn.lorem.space/images/game/.cache/400x400/farcry-6.jpg',
             user: 'Taylor Otwell'
         },
         {
             id: 5,
-            avatar: 'https://pbs.twimg.com/profile_images/1262107495037796359/N_HoUfGz_400x400.jpg',
+            avatar: 'https://cdn.lorem.space/images/game/.cache/400x400/control.jpg',
             user: 'Galen Gidman'
         },
         {
             id: 6,
-            avatar: 'https://pbs.twimg.com/profile_images/1458081709291868178/7bFb7AbF_400x400.jpg',
+            avatar: 'https://cdn.lorem.space/images/game/.cache/400x400/batman-arkham-knight-2015.jpeg',
             user: 'Scott Jehl'
         },
         {
             id: 7,
-            avatar: 'https://pbs.twimg.com/profile_images/1266007237874647044/-JqTQ_14_400x400.jpg',
+            avatar: 'https://cdn.lorem.space/images/game/.cache/400x400/control.jpg',
             user: 'Ildiko Gaspar'
         },
         {
             id: 8,
-            avatar: 'https://pbs.twimg.com/profile_images/1323356199945859072/oJM0cDPb_400x400.png',
+            avatar: 'https://cdn.lorem.space/images/game/.cache/400x400/life-is-strange.jpeg',
             user: 'Joel Thoms'
         },
         {
             id: 9,
-            avatar: 'https://pbs.twimg.com/profile_images/1386085325647265801/-w1nECc4_400x400.jpg',
+            avatar: 'https://cdn.lorem.space/images/game/.cache/400x400/sekiro.jpg',
             user: 'Emir Karşıyakalı'
         },
         {
             id: 10,
-            avatar: 'https://pbs.twimg.com/profile_images/958997253892419586/Jb6NPqEa_400x400.jpg',
+            avatar: 'https://cdn.lorem.space/images/game/.cache/400x400/enter-the-gungeon.jpg',
             user: 'Selman Kaya'
         }
     ]
